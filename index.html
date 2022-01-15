@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HomeWork</title>
+	<style>
+		body{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}	
+		p{
+			width: 70%;
+			text-align: center;
+		}
+		h1{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>Fasllar</h1>
+	<script>
+		let	fasl = prompt("Faslni Kiriting !");
+		if (fasl == "yoz" || fasl == "Yoz") {
+			document.write("<h1>Yoz</h1><br><p>Yoz toʻrt fasldan biridir. Yoz fasli bahor va kuz fasllarining orasida joylashgan boʻlib, eng issiq fasldir. Yoz fasli shimoliy yarimsharda eng uzun kundan boshlab, tengkunlikgacha davom etadi. Bu fasl Shimoliy yarimsharda 22 nhjvnmmiyundan 22 sentabrgacha, Janubiy yarimsharda esa 22 yanvardan 21 martgacha davom etadi.</p>");
+		}
+		else if (fasl == "bahor" || fasl == "Bahor") {
+			document.write("<h1>Bahor</h1><br><p>Bahor fasli, toʻrt fasldan biri boʻlib qish va yoz fasllarining oʻrtasida joylashgan fasldir. Bahor fasli 3 oydan iborat: Shimoliy yarimsharda — mart, aprel va maydan, janubiy yarimsharda esa sentabr, oktabr va noyabrdan.</p>");
+		}
+		else if (fasl == "qish" || fasl == "Qish") {
+			document.write("<h1>qish</h1><br><p>Qish toʻrt fasldan biri boʻlib, kuz va bahor fasllarining orasida joylashgan eng sovuq fasldir. Qish fasli 3 oydan iboratdir. Shimoliy yarimsharda: dekabr, yanvar va fevraldan, Janubiy yarimsharda esa: iyun, iyul va avgustdan. Bu faslda iqlim darajasi minusga qarab tusha boshlaydi. Shu sababli sovuq yogʻingarchiliklar orta boshlaydi.</p>");
+		}
+		else if (fasl == "kuz" || fasl == "Kuz") {
+			document.write("<h1>Kuz</h1><br><p>Kuz, yoz va qish orasida joylashgan fasl boʻlib shimoliy yarimsharda sentabr, oktabr va noyabr oylaridan, janubiy yarimsharda esa mart, aprel va may oylaridan iborat.</p>");
+		}
+		else{
+			document.write("<h1>Hato ma'lumot<h1>");
+		}
+	</script>
+	
+</body>
+</html>
